@@ -3,11 +3,19 @@
     <MainMovieList :movies="suggested_movies"/>
     <b-button variant="link" id="show-btn" @click="showModal"><font-awesome-icon class="fa-lg" icon="search"/>오늘의 영화
     </b-button>
-    <b-modal ref="my-modal" hide-footer title="오늘의 영화" hide-header-close>
-    <div class="d-block text-center">
-      <MovieCard :movies="today_movie"/>
+    <b-modal ref="my-modal" 
+      ok-only 
+      title="오늘의 영화"    
+      hide-header-close
+    >
+    <div class="d-block text-center" v-if="today_movie">
+      <div v-if="today_movie.length >= 1">
+        <MovieCard :movies="today_movie"/>
+      </div>
+      <div v-else>
+        <h5>오늘의 영화가 없습니다.</h5>
+      </div>
     </div>
-      <b-button class="mt-3" variant="btn btn-secondary" block @click="hideModal">Close</b-button>
     </b-modal>
     <SearchForm/>
     <h2>최신 영화</h2>
@@ -27,7 +35,6 @@ import SearchForm from '@/components/SearchForm.vue'
 import MovieCard from '@/components/MovieCard.vue'
 
 const BACKEND = process.env.VUE_APP_SERVER_URL
-
 
 export default {
   name: 'Index',
@@ -56,9 +63,6 @@ export default {
     },
     showModal() {
       this.$refs['my-modal'].show()
-    },
-    hideModal() {
-      this.$refs['my-modal'].hide()
     },
     getMovies: function () {
       axios({
@@ -99,8 +103,5 @@ export default {
     color: white;
     margin-top: 3rem;
     font-size: 20px;
-  }
-  .modal {
-    font-family: 'Do Hyeon', sans-serif;
   }
 </style>

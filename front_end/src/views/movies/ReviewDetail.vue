@@ -61,7 +61,7 @@ export default {
     deleteReview: function (review) {
       axios({
         method: 'delete',
-        url: `http://127.0.0.1:8000/movies/review_delete/${review.id}/`,
+        url: `${BACKEND}movies/review_delete/${review.id}/`,
         headers: this.setToken()
       })
         .then(res => {

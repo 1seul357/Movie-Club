@@ -76,9 +76,6 @@ export default {
   h2 {
     font-family: 'Do Hyeon', sans-serif;
   }
-  h5 {
-    font-family: 'Nanum Gothic', sans-serif;
-  }
   .form {
     display: -webkit-flex;
     display: -moz-flex;
@@ -94,7 +91,7 @@ export default {
     margin-right: 1rem;
   }
   button {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #28a9d8, #27d3ab);
     color: white;
   }
   button:hover{ 

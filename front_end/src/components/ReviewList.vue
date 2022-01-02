@@ -2,7 +2,7 @@
 <div class="container">
   <div>
     <b-button class="button-effect" id="show-btn" @click="showModal">리뷰 쓰기</b-button>
-    <b-modal ref="my-modal" hide-footer title="Create Review" hide-header-close>
+    <b-modal class="modal" ref="my-modal" hide-footer title="Create Review" hide-header-close>
       <div class="d-block">
         <div class="container">
         <b-form @submit="createReview(movie)">

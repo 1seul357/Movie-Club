@@ -45,7 +45,7 @@ export default Vue.extend({
         breakpoints: {
           1400: {
             slidesPerView: 4,
-            spaceBetween: 10
+            spaceBetween: 0
           }
         },
       }
