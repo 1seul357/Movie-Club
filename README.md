@@ -40,7 +40,10 @@
   
 - 모달로 구현 : 리뷰 작성  
 
-  
+
+
+
+
 
 ## 🗓️2021.12.09
 
@@ -75,6 +78,8 @@ def moviedata():
 
 - tmdb에서 영화 데이터 불러오기
 - 장르 정보는 id 값으로 들어오므로 이후 바꿔주는 과정 필요
+
+
 
 
 
@@ -125,6 +130,8 @@ def moviedata():
 ### ERD
 
 ![ERD](README.assets/ERD-16409495184891.PNG)
+
+
 
 
 
@@ -179,6 +186,8 @@ def moviedata():
 또한.. 한번에 엄청 많은 코드 작성하고, 서버 켜서 확인하면 안된다. 무조건 하나씩 확인하면서 해야 한다. 처음에 쭉 구현하고, 서버 켰는데 에러 폭발.... 결국 다 지우고 다시 처음부터 만들었다.
 
 그래도 로그인과 회원가입을 모두 끝내놓고 잘 수 있어서 좋다.
+
+
 
 
 
@@ -239,6 +248,8 @@ vue를 안 쓴게 너무 후회된다... 생각보다 어렵지 않고..! 무엇
 
 
 
+
+
 ## 🗓️2021.12.14
 
 ### 오늘 완료한 일
@@ -261,6 +272,8 @@ vue를 안 쓴게 너무 후회된다... 생각보다 어렵지 않고..! 무엇
 - 유튜브 API 불러오기
 - 찜하기
 - serializer 수정
+
+
 
 
 
@@ -380,6 +393,8 @@ vue의 장점과 django의 장점이 명확하게 다른 것 같다... 뭔가 �
 
 
 
+
+
 ## 🗓️2021.12.16
 
 ### 오늘 완료한 일
@@ -399,6 +414,8 @@ vue의 장점과 django의 장점이 명확하게 다른 것 같다... 뭔가 �
 ### 내일 할 일
 
 - 오늘의 영화 모달로 띄우기
+
+
 
 
 
@@ -453,6 +470,8 @@ vue의 장점과 django의 장점이 명확하게 다른 것 같다... 뭔가 �
 
 - 모달을 통해 구현
 - django 내장 함수인 datetime 사용해서 오늘 날짜를 변수에 저장하고, release_date와 비교
+
+
 
 
 
@@ -522,7 +541,9 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 
-### 🗓️2021.12.21
+
+
+## 🗓️2021.12.21
 
 ### 오늘 완료한 일
 
@@ -560,7 +581,9 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 
-### 🗓️2021.12.22
+
+
+## 🗓️2021.12.22
 
 ### 오늘 완료한 일
 
@@ -593,7 +616,9 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 
-### 🗓️2021.12.23
+
+
+## 🗓️2021.12.23
 
 ### 오늘 완료한 일
 
@@ -621,7 +646,7 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 
-### 🗓️~2021.12.28
+## 🗓️~2021.12.28
 
 ### 그동안 완료한 일
 
@@ -676,7 +701,7 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 
-### 🗓️ 2021.12.30
+## 🗓️ 2021.12.30
 
 ### 오늘 완료한 일
 
@@ -719,7 +744,7 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 
-### 🗓️ 2021.12.31
+## 🗓️ 2021.12.31
 
 ### 오늘의 할 일
 
@@ -772,7 +797,7 @@ class CommentSerializer(serializers.ModelSerializer):
 
 
 
-### 🗓️ 2022.01.02
+## 🗓️ 2022.01.02
 
 ### 오늘의 할 일
 
