@@ -16,7 +16,7 @@
 
 ### ERD
 
-![ERD (3)](README.assets/ERD (3).png)
+![ERD (3)](README.assets/ERD.png)
 
 
 
