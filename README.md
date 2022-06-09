@@ -14,13 +14,13 @@
 
 </br>
 
-### ERD
+### 🎨 ERD
 
 ![ERD (3)](README.assets/ERD.png)
 
 </br>
 
-### 주요 기능
+### 🎥 주요 기능
 
 **Main 페이지**
 
